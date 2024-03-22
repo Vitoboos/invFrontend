@@ -1,0 +1,146 @@
+@font-face {
+  font-family: "IMB Plex Mono";
+  src: url(../../assets/fonts/IBMPlexMono-Regular.ttf);
+}
+
+.mainTitle {
+  margin: 0px;
+  padding: 20px;
+  background-color: black;
+  color: rgb(253, 253, 253);
+  text-align: center;
+  font-size: 4rem;
+  font-family: "IMB Plex Mono";
+}
+
+.navGrid {
+  max-height: fit-content !important;
+}
+
+.navButton {
+  display: block;
+  margin: auto;
+  background-color: #0e0e0e;
+  color: rgb(253, 253, 253);
+  text-align: center;
+  padding: 20px;
+  font-size: 3rem;
+  height: fit-content;
+  font-family: "IMB Plex Mono";
+}
+
+.navButton:hover {
+  background-color: rgb(70, 70, 70);
+  cursor: pointer;
+}
+
+.background {
+  background-color: #ffffff;
+  opacity: 1;
+  background-size: 18px 18px;
+  background-image: repeating-linear-gradient(
+    45deg,
+    #c4c4c4 0,
+    #c4c4c4 1.8px,
+    #ffffff 0,
+    #ffffff 50%
+  );}
+
+.gridContainer {
+  margin: 0vh 10vw !important;
+  padding: 5vh 0px;
+  font-family: "IMB Plex Mono";
+}
+
+.gridCard {
+  background-color: whitesmoke;
+  border: 1px solid #0e0e0e;
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px #0e0e0e;
+}
+
+.gridCard:hover {
+  background-color: #0e0e0e;
+  cursor: pointer;
+}
+
+.gridCard:hover .cardTitle {
+  color: white;
+}
+
+.gridCard:hover .gridIcon {
+  filter: invert(100%);
+}
+
+.cardTitle {
+  text-align: center;
+  font-size: 1rem;
+}
+
+@media (max-width: 1440px) {
+  .cardTitle {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 1300px) {
+  .cardTitle {
+    font-size: 1rem;
+  }
+
+  .navButton {
+    padding: 20px;
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .cardTitle {
+    font-size: 1rem;
+  }
+
+  .navButton {
+    padding: 20px;
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .mainTitle {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .navButton {
+    padding: 20px;
+    font-size: 2rem;
+  }
+
+  .cardTitle {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .mainTitle {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .navButton {
+    padding: 20px;
+    font-size: 2rem;
+  }
+
+  .cardTitle {
+    font-size: 0.75rem;
+  }
+}
+
+.gridIcon {
+  display: block;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+}

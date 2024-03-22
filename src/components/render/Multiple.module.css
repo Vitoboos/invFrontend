@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "IMB Plex Mono";
+  src: url(../../assets/fonts/IBMPlexMono-Regular.ttf);
+}
+
+.container {
+  background-color: aliceblue;
+}
+
+.mainTitle {
+  margin: 0px;
+  padding: 20px;
+  background-color: black;
+  color: rgb(253, 253, 253);
+  text-align: center;
+  font-size: 4rem;
+  font-family: "IMB Plex Mono";
+}
+
+@media (max-width: 768px) {
+  .mainTitle {
+    text-align: center;
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .mainTitle {
+    text-align: center;
+    font-size: 2rem;
+  }
+}
